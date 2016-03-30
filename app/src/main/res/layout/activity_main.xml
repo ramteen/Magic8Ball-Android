@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="300dp"
         android:src="@drawable/circle1"
-        android:id="@+id/imageView"
+        android:id="@+id/pic"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -40,8 +40,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="false"
-        android:layout_alignRight="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignRight="@+id/pic"
+        android:layout_alignEnd="@+id/pic"
         android:onClick="setText" />
 
     <TextView
